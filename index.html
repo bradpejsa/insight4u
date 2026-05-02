@@ -18,7 +18,7 @@
   <meta property="og:url" content="https://insightbooksllc.com">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Professional Bookkeeping & Tax Support">
   <meta name="twitter:description" content="Expert bookkeeping, QuickBooks support, and tax preparation for small businesses.">
 
@@ -480,8 +480,44 @@
       gap: 18px;
       flex-wrap: wrap;
     }
+.about {
+  background: var(--cream);
 
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.about-copy p {
+  color: var(--muted);
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+.about-image {
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  padding: 18px;
+  box-shadow: 0 18px 50px rgba(11, 31, 58, 0.08);
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+transform: scale(0.75);
+  transform-origin: center;
+  border-radius: 22px;
+  object-fit: cover;
+}
     @media (max-width: 900px) {
+.about-grid {
+  grid-template-columns: 1fr;
+}
       .hero-grid,
       .split {
         grid-template-columns: 1fr;
@@ -528,6 +564,8 @@
           <a href="#services">Services</a>
           <a href="#approach">Approach</a>
           <a href="#process">Process</a>
+ <a href="#about">About</a>
+
           <a class="button" href="https://calendly.com/insightbooksllc/30min">Free Consultation</a>
         </nav>
       </div>
@@ -583,18 +621,21 @@
 
           <div class="cards">
             <article class="card">
-              <div class="card-icon">01</div>
+              <p>&nbsp</p>
               <h3>Monthly Bookkeeping</h3>
+	      <p>&nbsp</p>
               <p>Reliable categorization, reconciliations, and up-to-date records so your books stay organized and decision-ready.</p>
             </article>
             <article class="card">
-              <div class="card-icon">02</div>
+              <p>&nbsp</p>
               <h3>Financial Reporting</h3>
+	      <p>&nbsp</p>
               <p>Clear reports that help you understand what happened, what changed, and what deserves your attention.</p>
             </article>
             <article class="card">
-              <div class="card-icon">03</div>
+              <p>&nbsp</p>
               <h3>Insight & Analysis</h3>
+	      <p>&nbsp</p>
               <p>Practical interpretation of your numbers so you can spot trends, manage cash flow, and make stronger decisions.</p>
             </article>
           </div>
@@ -605,7 +646,7 @@
         <div class="container split">
           <div class="quote-box">
             <strong>Clean books are the foundation. <span>Insight is the advantage.</span></strong>
-            <p>When your financial information is accurate and easy to understand, you can stop guessing and start leading with confidence.</p>
+            <p>When your financial information is accurate and easy to understand, you can plan the next best steps for your business with confidence.</p>
           </div>
 
           <div class="check-list">
@@ -634,33 +675,50 @@
         </div>
       </section>
 
-      <section class="section" id="process">
+      
+ <section class="section" id="services">
         <div class="container">
           <div class="section-header">
             <h2>A clear process from cleanup to clarity.</h2>
             <p>The goal is not just to maintain your books. The goal is to help you understand the financial story your business is telling.</p>
           </div>
 
-          <div class="process">
-            <div class="step">
+          <div class="cards">
+            <article class="card">
+              <p>&nbsp</p>
               <h3>Review</h3>
+	      <p>&nbsp</p>
               <p>We look at where your books stand today and identify gaps, errors, or areas needing cleanup.</p>
-            </div>
-            <div class="step">
+            </article>
+            <article class="card">
+              <p>&nbsp</p>
               <h3>Organize</h3>
+	      <p>&nbsp</p>
               <p>Your transactions, accounts, reconciliations, and records are brought into order.</p>
-            </div>
-            <div class="step">
+            </article>
+            <article class="card">
+              <p>&nbsp</p>
               <h3>Report</h3>
-              <p>You receive clear, consistent financial reports that are easier to understand.</p>
-            </div>
-            <div class="step">
-              <h3>Guide</h3>
-              <p>We turn the numbers into useful insight so you can make better business decisions.</p>
-            </div>
+	      <p>&nbsp</p>
+              <p>You receive clear, consistent financial reports that are easy to understand.</p>
+            </article>
+
           </div>
         </div>
       </section>
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-copy">
+      <div class="eyebrow">About Insight Bookkeeping</div>
+      <h2>Financial clarity with a personal, practical approach.</h2>
+      <p>Hello, I’m Chrissy with Insight Bookkeeping, LLC. I help small business owners clean up and organize their books, making them easier to understand.</p>
+      <p>My goal is to provide more than monthly bookkeeping. I want to help you see the story behind your business finances so you can make smarter decisions about growth, spending, pricing, and planning.</p>
+      <a class="button" href="https://calendly.com/insightbooksllc/30min">Schedule a Free Consultation</a>
+    </div>
+
+   
+  </div>
+</section>
 
       <section class="cta">
         <div class="container">
@@ -674,7 +732,7 @@
     <footer>
       <div class="container footer-inner">
         <div>© 2026 Insight Bookkeeping, LLC. All rights reserved.</div>
-        <div>Where numbers become strategy.</div>
+        <div>(704) 802-2352</div>
       </div>
     </footer>
   </div>
